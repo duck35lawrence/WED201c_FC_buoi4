@@ -1,0 +1,174 @@
+.logo-header img {
+  margin-left: 20px;
+  width: 20%;
+  height: 120px;
+}
+
+.sreach-header {
+  margin-top: 45px;
+}
+
+.content-right-header h3 {
+  text-align: center;
+  margin-top: 49px;
+}
+
+.navbar-css {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left-item {
+  border: 3px solid #0fbfc4;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.left-item p {
+  margin-left: 10px;
+}
+
+.background_header_item img {
+  width: 10%;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.background_header_item {
+  background-color: #e1eded;
+  color: #0fbfc4;
+  padding: 5px 0px;
+  margin-top: 0px;
+}
+
+.content-banner-right img {
+  width: 100%;
+}
+
+input {
+  accent-color: #2684fc;
+}
+
+.content-big-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  color: #0ec0c3;
+  border: 1px solid black;
+  box-shadow: 0px 1px 5px 0px black;
+}
+
+.content-big-title h2 {
+  margin: 0;
+  padding: 10px;
+}
+
+.content-small {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 1px 5px 0px black;
+}
+
+.content-small img {
+  width: 300px;
+  height: 275px;
+}
+
+.content-small-right-box {
+  padding-left: 30px;
+}
+
+.content-small-title {
+  margin-top: 0;
+  color: #0ec0c3;
+}
+
+.content-small-right-box > p {
+  text-align: justify;
+}
+
+.content-small-price {
+  color: #ff973b;
+}
+
+.booknow {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 10px;
+  width: fit-content;
+  text-align: center;
+  background-color: #0ec0c3;
+  color: white;
+  border-radius: 7px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #0ebbbf;
+  padding: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-header {
+    text-align: center;
+    padding: 0;
+  }
+  .logo-header img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .sreach-header {
+    margin-top: 45px;
+  }
+
+  .sreach-header input {
+    height: 45px;
+  }
+
+  .content-right-header h3 {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .left-item,
+  .content-small {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .content-left,
+  .content-right {
+    padding: 0;
+  }
+
+  .content-small {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-small-right-box {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-small-title {
+    margin: 5px auto 5px 0;
+  }
+  .booknow {
+    position: static;
+    margin: 0 auto;
+  }
+}
